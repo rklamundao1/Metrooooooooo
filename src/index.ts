@@ -1,6 +1,6 @@
 import * as c from "https://deno.land/std@0.220.1/fmt/colors.ts";
 import { format } from "https://deno.land/std@0.220.1/datetime/mod.ts";
-import sanitize from "sanitize_filename";
+import sanitize from "https://deno.land/x/sanitize_filename@1.2.1/mod.ts";
 import { stringify } from "https://deno.land/x/xml@2.1.3/mod.ts";
 import { metrodreaminToKML } from "./kml.ts";
 import { getData } from "./metrodreamin.ts";
