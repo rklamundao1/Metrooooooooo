@@ -1,5 +1,5 @@
 import * as c from "https://deno.land/std@0.220.1/fmt/colors.ts";
-import { format } from "datetime";
+import { format } from "https://deno.land/std@0.220.1/datetime/mod.ts";
 import sanitize from "sanitize_filename";
 import { stringify } from "xml";
 import { metrodreaminToKML } from "./kml.ts";
