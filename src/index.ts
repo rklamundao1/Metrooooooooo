@@ -1,4 +1,4 @@
-import * as c from "colors";
+import * as c from "https://deno.land/std@0.220.1/fmt/colors.ts";
 import { format } from "datetime";
 import sanitize from "sanitize_filename";
 import { stringify } from "xml";
